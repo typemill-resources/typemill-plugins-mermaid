@@ -1,8 +1,8 @@
 name: Mermaid
-version: 1.0.1
-description: View your mermaid code with the famous mermaid.js library.
-author: Jeong-Ho, Eun
-homepage: https://mermaid-js.github.io/mermaid/#/
+version: 2.1.0
+description: View your mermaid code with the famous mermaid.js library (https://mermaid-js.github.io/mermaid/#/)
+author: "Jeong-Ho Eun, Giuseppe Chiesa"
+homepage: https://github.com/typemill-resources/typemill-plugins-mermaid
 licence: MIT
 
 settings:
@@ -10,6 +10,11 @@ settings:
 
 forms:
   fields:
+
+    mermaidVersion:
+      type: text
+      label: The version in the form (`x.y.z`) of Mermaid you want to embed in your blog. Check the available versions on https://github.com/mermaid-js/mermaid/releases
+      placeholder: "10.9.0"
 
     theme:
       type: select
