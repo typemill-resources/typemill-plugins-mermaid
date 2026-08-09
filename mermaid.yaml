@@ -6,7 +6,7 @@ homepage: https://github.com/typemill-resources/typemill-plugins-mermaid
 licence: MIT
 
 settings:
-  tool: none
+  render_endpoint: 'https://service.typemill.net/mermaid'
 
 forms:
   fields:
@@ -44,4 +44,9 @@ forms:
       type: text
       label: "The font to be used for the rendered diagrams. (default: 'trebuchet ms', verdana, arial)"
       placeholder: 
-        
+
+#    render_endpoint:
+#      type: text
+#      label: 'Render Endpoint for PDF/EPUB Export'
+#      placeholder: 'https://service.typemill.net/mermaid'
+#      help: 'URL of a mermaid rendering service that accepts a POST with {"mermaid": "...", "theme": "...", "format": "svg"} and returns an SVG. Required for static exports, PDFs and EPUBs.'
