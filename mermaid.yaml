@@ -1,9 +1,9 @@
 name: Mermaid
-version: 2.1.0
+version: 2.2.0
 description: View your mermaid code with the famous mermaid.js library (https://mermaid-js.github.io/mermaid/#/)
 author: "Jeong-Ho Eun, Giuseppe Chiesa"
 homepage: https://github.com/typemill-resources/typemill-plugins-mermaid
-licence: MIT
+license: MIT
 
 settings:
   render_endpoint: 'https://service.typemill.net/mermaid'

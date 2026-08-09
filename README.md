@@ -68,7 +68,7 @@ When Typemill generates a static export, the plugin can replace each Mermaid cod
 
 ## Changelog
 
-### 2.1.0
+### 2.2.0
 - Added static export support for PDF/EPUB generation.
 - Added configurable render endpoint for remote SVG generation.
 - Hardened JavaScript initialization to prevent broken output from special characters.
