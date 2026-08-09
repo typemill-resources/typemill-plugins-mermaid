@@ -1,6 +1,8 @@
-# Mermaid plugin for Typemill
+# Mermaid Plugin
 
 Render [Mermaid diagrams](https://mermaid.js.org/) directly in your Typemill pages. This plugin converts fenced code blocks marked with `mermaid` into live diagrams on your website and can optionally generate static SVG assets for PDF/EPUB export.
+
+![screenshot of a mermaid chart](media/live/mermaid-pie-chart.png){.center loading="lazy" width="779" height="512"}
 
 ## Features
 
@@ -62,14 +64,12 @@ All diagram types supported by the included Mermaid.js version work, including:
 
 When Typemill generates a static export, the plugin can replace each Mermaid code block with a cached SVG image. It POSTs the diagram source to the configured render endpoint and stores the returned SVG in `/cache/generated/mermaid/`. If the endpoint is unavailable, a placeholder error SVG is used instead.
 
-## Snapshot
-
-![snapshot](snapshot.png)
-
 ## Changelog
 
 ### 2.2.0
+
 - Added static export support for PDF/EPUB generation.
 - Added configurable render endpoint for remote SVG generation.
 - Hardened JavaScript initialization to prevent broken output from special characters.
 - Fixed JavaScript global variable leak in diagram replacement code.
+
